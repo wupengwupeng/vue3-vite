@@ -1,0 +1,41 @@
+Arguments: 
+  G:\softDownLoad\node\node.exe C:\Users\29609\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vuex@4.0
+
+PATH: 
+  C:\Users\29609\bin;G:\softDownLoad\git\Git\mingw64\bin;G:\softDownLoad\git\Git\usr\local\bin;G:\softDownLoad\git\Git\usr\bin;G:\softDownLoad\git\Git\usr\bin;G:\softDownLoad\git\Git\mingw64\bin;G:\softDownLoad\git\Git\usr\bin;C:\Users\29609\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;G:\softDownLoad\sm\SMDaiLi\bin;G:\softDownLoad\git\Git\cmd;G:\softDownLoad\node;C:\Users\29609\AppData\Roaming\npm;C:\Users\29609\AppData\Local\Microsoft\WindowsApps;G:\softDownLoad\vscode\Microsoft VS Code\bin;C:\Users\29609\AppData\Roaming\npm;G:\softDownLoad\git\Git\usr\bin\vendor_perl;G:\softDownLoad\git\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'G:\vue3+vite\vue3\vue3-vite\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "vue3-vite",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.16"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.9.2",
+      "vite": "^2.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
